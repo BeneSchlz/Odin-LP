@@ -45,8 +45,52 @@
 
 .hero {
     display: flex;
+    height: 350px;
 }
 
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 50%;
+    margin-right: 100px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.hero-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.hero-btn {
+    width: 100px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
+
+.hero-img {
+    flex: 1 0 auto;
+    width: 55%;
+    color:white;
+    background-color: grey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
 
 
 
