@@ -92,16 +92,125 @@
     margin-top: 80px;
 }
 
+/* Info-Section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.collection {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.card .icon{
+    flex: 0 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+ }
+
+ .card p {
+    display: flex;
+    width: 150px;
+    text-align: center;
+ }
+
+/* Quote-Section */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-right: 380px;
+    margin-left: 380px;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.quote-cit {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    margin-right: 380px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+/* CTA */
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-text {
+    width: 1200px;
+    height: 150px;
+    background-color: #3882f6;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-heading {
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.cta-heading-text {
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    border-color: #f9faf8;
+    display: flex;
+    width: 120px;
+    border-radius: 10px;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 18px;
+    height: 30px;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+/* Footer */
+
+.footer {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
 
 
-
-
-
-
-
-
-
-
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1f2937;
 }
